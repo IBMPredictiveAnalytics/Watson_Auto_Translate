@@ -1,5 +1,4 @@
 # Watson Auto Translate
-###Use Watson Service through Bluemix to identify the language of a given text and translate it
 
 This node allows you to use the Watson Language Translation service on the Bluemix platform from within SPSS Modeler.   This extension identifies the language of the input text and converts it to the desired target language. The output for this node is a new data table that contains new columns for the language of the input text and the translated text in the target language.  Important: At this time, the Watson service cannot translate from non-English to non-English, meaning English must either be the source or target language.     
 
