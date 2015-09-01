@@ -9,7 +9,7 @@ This node allows you to use the Watson Language Translation service on the Bluem
 Requirements
 ----
 - IBM SPSS Modeler v16 or later
-- ‘R Essentials for SPSS Modeler’ plugin: [Download here](7)
+- ‘R Essentials for SPSS Modeler’ plugin: [Download here][7]
  -  R 2.15.x or R 3.1
 - A Bluemix account with Watson Language Translation Service activated
 
@@ -25,8 +25,8 @@ Installation instructions
 R Packages used
 ----
 The R packages will be installed the first time the node is used as long as an Internet connection is available.
-- [httr](4)
-- [XML](9)
+- [httr][4]
+- [XML][9]
  
 ---
 Documentation and samples
