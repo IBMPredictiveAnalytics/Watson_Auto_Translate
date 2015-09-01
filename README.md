@@ -3,8 +3,9 @@
 
 This node allows you to use the Watson Language Translation service on the Bluemix platform from within SPSS Modeler.   This extension identifies the language of the input text and converts it to the desired target language. The output for this node is a new data table that contains new columns for the language of the input text and the translated text in the target language.  Important: At this time, the Watson service cannot translate from non-English to non-English, meaning English must either be the source or target language.     
 
-Add Images
-
+![Dialog](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration1.png)
+![Output](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration2.png)
+![Stream](https://raw.githubusercontent.com/IBMPredictiveAnalytics/Watson-Auto-Translate/master/Screenshot/Illustration3.png)
 ---
 Requirements
 ----
@@ -51,10 +52,10 @@ Contributors
 
 [1]: http://www.apache.org/licenses/LICENSE-2.0.html
 [2]:https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/personality-insights/overview.shtml
-[3]: -- insert link for extension download
+[3]: https://github.com/IBMPredictiveAnalytics/Watson-Auto-Translate/blob/master/Source%20code/WatsonAutoTranslate.cfe
 [4]:https://cran.r-project.org/web/packages/httr/
-[5]:-- insert link for documentation
-[6]: -- insert link for example
+[5]:https://github.com/IBMPredictiveAnalytics/Watson-Auto-Translate/tree/master/Documentation
+[6]:https://github.com/IBMPredictiveAnalytics/Watson-Auto-Translate/tree/master/Example
 [7]:https://developer.ibm.com/predictiveanalytics/downloads/#tab2
 [8]: https://developer.ibm.com/predictiveanalytics/downloads/
 [9]: https://cran.r-project.org/web/packages/XML/
