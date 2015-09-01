@@ -31,7 +31,7 @@ The R packages will be installed the first time the node is used as long as an I
 ---
 Documentation and samples
 ----
-- Find a PDF with the documentation of this extension in the [Documentation](5) directory
+- Find a PDF with the documentation of this extension in the [Documentation][5] directory
 - There is a sample available in the [example][6] directory
 
 
