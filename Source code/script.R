@@ -24,7 +24,7 @@ for(i in 1:nrow(modelerData)) {
   text<-modelerData$%%text%%[i] #Load text 
   u <- "%%user%%"   #Username and Password provided in CDB
   p <- "%%password%%"
-  base <- "https://gateway.watsonplatform.net/language-translation/api/v2/identify" #URL to ID the language
+  base <- "https://gateway.watsonplatform.net/language-translator/api/v2/identify" #URL to ID the language
   pars <- list(txt=iconv(text,to="UTF-8")) #parameters for body of POST
   if (version == 2){
     r<-POST(base,authenticate(u, p), body = pars)
@@ -40,7 +40,7 @@ for(i in 1:nrow(modelerData)) {
   else if (!(is.element("en", c(source_language, target_language)))){
     text<-"Unable to convert non-english to non-english at this time" }
   else if(source_language != target_language) {
-    base <- "https://gateway.watsonplatform.net/language-translation/api/v2/translate?source=" #URL to translate to target        
+    base <- "https://gateway.watsonplatform.net/language-translator/api/v2/translate?source=" #URL to translate to target        
     full_url <- paste(base,source_language,"&target=", target_language, sep = '')
     pars <- list(txt=iconv(text,to="UTF-8")) #parameters for body of POST     
     if (version == 2){
